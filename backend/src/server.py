@@ -10,10 +10,10 @@ from pymongo import ReturnDocument
 from hcps.routers import router as hcp_router
 
 
-# Note: sensitive info only included for test purposes - would not include in prod!
 DB_NAME = "test_db"
 COLLECTION_NAME = "hcp"
-MONGODB_URI = "mongodb+srv://georgeballardsoftware:testdb@cluster0.h7jvp.mongodb.net/testdb?retryWrites=true&w=majority&appName=Cluster0"
+# Note: replace with mongoDB cluster url
+MONGODB_URI = "mongo_cluster_uri"
 DEBUG = True
 
 
