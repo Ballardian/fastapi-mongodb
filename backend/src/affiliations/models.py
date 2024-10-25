@@ -1,4 +1,3 @@
-from typing import Optional, List
 from pydantic import ConfigDict, BaseModel
 
 from constants import Status
